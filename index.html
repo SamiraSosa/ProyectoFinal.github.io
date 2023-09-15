@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="general">
+        <div class="contenido">
+            <div id="calculos">
+
+                <h1>Calculadora IMC</h1>
+                <h3>( Indice de masa corporal )</h2>
+                
+                <p>Ingrese peso</p>
+                <input id="peso" type="number" placeholder="Peso en kg"/>
+                <p>Ingrese altura</p>
+                <input id="altura" type="number" placeholder="Altura en cm" /><br>
+                <p  id="error">COMPLETE TODOS LOS DATOS</p>
+                <button id="calcular">CALCULAR</button>
+                <button id="borrar">BORRAR</button>
+                <p id="respuesta">RESULTADO</p>
+                <h2 class="resultado" id="indice"  ></h2>
+                <p id="mensaje" class="resultado"></p>
+            </div> 
+       </div> 
+       <div class="contenido"> 
+            <div id="detalle">
+                <h1>¿Como se calcula?</h1>
+                <p> (IMC = peso (kg)/ [estatura (m)]2)</p>
+                <ul>
+                    <li>Peso inferior al normal IMC menor de 18.5</li>
+                    <li>Peso Normal IMC 18.5 a 24.9</li>
+                    <li>Peso superior al normal IMC	25.0 a 29.9</li>
+                    <li>Obesidad IMC superior a 30.0</li>
+                    <img src="https://static.tuasaude.com/media/article/me/dr/imc_15748_l.jpg" id="foto" ></img>
+                </ul>
+            </div>
+       </div>
+   </div>
+</body>
+
+</html> 
