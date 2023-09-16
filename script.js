@@ -23,7 +23,7 @@ CALCULAR.addEventListener('click',() =>{
     let resultado = (peso)/(altura*altura);
     resultado = (resultado);
     resultado= resultado.toFixed(1);
-    INDICE.innerHTML= resultado;
+    INDICE.innerHTML= 'IMC = '+ resultado;
     if(altura*peso<=0){
         ERROR.style.display='block';
         INDICE.style.display= 'none';
@@ -61,17 +61,5 @@ CALCULAR.addEventListener('click',() =>{
 }
     }
     }
-    
     }
-
-
-
-
-    
-
-
-
-
-
-
 })
